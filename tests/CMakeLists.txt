@@ -54,7 +54,8 @@ include(${CPM_DIR}/CPM.cmake)
 
 # ++ MODULE: Entity System
 CPM_AddModule("var_buffer"
-  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/..")
+  GIT_REPOSITORY "https://github.com/iauns/cpm-var-buffer"
+  GIT_TAG "origin/master")
 
 # ++ EXTERNAL-MODULE: Google Test
 CPM_AddModule("google_test"
